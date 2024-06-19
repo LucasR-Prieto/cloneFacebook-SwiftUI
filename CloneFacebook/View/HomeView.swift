@@ -21,6 +21,7 @@ struct HomeView: View {
                 
             }
             .padding(.horizontal , 10)
+            .frame(height: 40)
             Divider()
                 .frame(height: 1)
                 .background(Color.gray)
@@ -37,9 +38,23 @@ struct HomeView: View {
 
             }//functions Home
             .frame(height: 40)
-            ScrollView{
+            ScrollView {
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: 10) {
+                        itemHistoryView()
+                            .padding(.vertical , 5)
+                        itemHistoryView()
+                            .padding(.vertical , 5)
 
-            }//ScrollView
+                        itemHistoryView()
+                            .padding(.vertical , 5)
+
+                    }
+                    .padding(.horizontal, 10)
+                
+            }
+
+            }
             Spacer()
 
             
