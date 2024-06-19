@@ -1,5 +1,5 @@
 //
-//  PersonView.swift
+//  Componets.swift
 //  CloneFacebook
 //
 //  Created by lucas on 2024-06-19.
