@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A0A7AC452C235C6F0061E5EB /* Componets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A7AC442C235C6F0061E5EB /* Componets.swift */; };
+		A02BAB7F2C23DD680073635B /* PostsHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02BAB7E2C23DD680073635B /* PostsHomeView.swift */; };
+		A0A7AC452C235C6F0061E5EB /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A7AC442C235C6F0061E5EB /* PersonView.swift */; };
 		A0A7AC4B2C2364C90061E5EB /* CustomButtomHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A7AC4A2C2364C90061E5EB /* CustomButtomHomeView.swift */; };
 		A0A7AC4E2C23656C0061E5EB /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A7AC4D2C23656C0061E5EB /* HeaderView.swift */; };
 		A0A7AC502C2369B10061E5EB /* itemHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A7AC4F2C2369B10061E5EB /* itemHistoryView.swift */; };
@@ -21,7 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A0A7AC442C235C6F0061E5EB /* Componets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Componets.swift; sourceTree = "<group>"; };
+		A02BAB7E2C23DD680073635B /* PostsHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsHomeView.swift; sourceTree = "<group>"; };
+		A0A7AC442C235C6F0061E5EB /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
 		A0A7AC4A2C2364C90061E5EB /* CustomButtomHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtomHomeView.swift; sourceTree = "<group>"; };
 		A0A7AC4D2C23656C0061E5EB /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		A0A7AC4F2C2369B10061E5EB /* itemHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemHistoryView.swift; sourceTree = "<group>"; };
@@ -73,10 +75,11 @@
 		A0A7AC492C2364960061E5EB /* Componets */ = {
 			isa = PBXGroup;
 			children = (
-				A0A7AC442C235C6F0061E5EB /* Componets.swift */,
+				A0A7AC442C235C6F0061E5EB /* PersonView.swift */,
 				A0A7AC4A2C2364C90061E5EB /* CustomButtomHomeView.swift */,
 				A0A7AC4D2C23656C0061E5EB /* HeaderView.swift */,
 				A0A7AC4F2C2369B10061E5EB /* itemHistoryView.swift */,
+				A02BAB7E2C23DD680073635B /* PostsHomeView.swift */,
 			);
 			path = Componets;
 			sourceTree = "<group>";
@@ -197,7 +200,8 @@
 				A0E156BE2C18ED6300C608A7 /* HomeView.swift in Sources */,
 				A0E156B22C18ECF900C608A7 /* ContentView.swift in Sources */,
 				A0E156B02C18ECF900C608A7 /* CloneFacebookApp.swift in Sources */,
-				A0A7AC452C235C6F0061E5EB /* Componets.swift in Sources */,
+				A02BAB7F2C23DD680073635B /* PostsHomeView.swift in Sources */,
+				A0A7AC452C235C6F0061E5EB /* PersonView.swift in Sources */,
 				A0A7AC4E2C23656C0061E5EB /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

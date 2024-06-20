@@ -16,13 +16,11 @@ struct itemHistoryView: View {
                     .cornerRadius(20)
                 
                     .foregroundColor(.blue)
-                    .frame(width: 120, height: 170)
+                    .frame(width: 120, height: 190)
                     .overlay(Image("history_img")
                         .resizable()
                     )
                     .cornerRadius(20)
-                
-                
                 VStack(alignment: .leading) {
                     HStack{
                         Circle()
@@ -33,21 +31,17 @@ struct itemHistoryView: View {
                     }
                     .padding(.top ,10)
                     Spacer()
-                    
                     HStack(alignment: .center) {
                         Text(" juan")
                             .bold()
-                            .foregroundColor(.white)
+                            .foregroundColor(Color("FontColorPrimary"))
                     }
-                    
-                    
-                    
+
                 }
                 .padding(7)
             }
         }//vstask Padre
-        .frame( width: 120 , height: 170)
-        
+        .frame( width: 120 , height: 190)
     }
 }
 

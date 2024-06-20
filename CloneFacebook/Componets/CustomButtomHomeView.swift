@@ -29,7 +29,7 @@ struct CustomButtomHomeView: View {
                         
                     }
                     Text(label)
-                        .foregroundStyle(Color.black)
+                        .foregroundStyle(Color("FontColorPrimary"))
                         .multilineTextAlignment(.center)
                 }
                 .frame(maxWidth: .infinity)
